@@ -3,6 +3,8 @@
  Overview
 This notebook demonstrates the process of forecasting energy consumption using machine learning techniques, specifically with the XGBoost regressor. The dataset used for this analysis is the [Hourly Energy Consumption dataset](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?resource=download) from Kaggle.
 
+PJM East is a specific area within the PJM Interconnection, a regional transmission organization that manages the electric grid and wholesale electricity market in parts of the Eastern and Midwestern United States. PJM East covers areas such as Delaware, the District of Columbia, New Jersey, and parts of Pennsylvania, Maryland, and Virginia. This sub-region helps ensure the reliable operation of the electric grid and efficient electricity markets within these areas.
+
  1. Setup and Data Loading
 
  Importing Libraries
