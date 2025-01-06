@@ -1,0 +1,146 @@
+Index,MSN,Description,Unit
+,BTVHN,Battery electric vehicle (BEV) light-duty stocks,Thousands of registered vehicles
+,BTVHP,Electricity consumed for battery electric vehicle (BEV) use,Million kilowatthours
+,CLEIB,Coal consumed by the electric power sector,Billion Btu
+,CLEID,Coal price in the electric power sector,Dollars per million Btu
+,CLEIK,Factor for converting coal consumed by the electric power sector from physical units to Btu,Million Btu per short ton
+,CLEIP,Coal consumed by the electric power sector,Thousand short tons
+,CLEIV,Coal expenditures in the electric power sector,Million dollars
+,DFEIB,Distillate fuel oil consumed by the electric power sector,Billion Btu
+,DFEID,Distillate fuel oil price in the electric power sector,Dollars per million Btu
+,DFEIP,Distillate fuel oil consumed by the electric power sector,Thousand barrels
+,DFEIV,Distillate fuel oil expenditures in the electric power sector,Million dollars
+,DKEIB,Distillate fuel oil (including kerosene-type jet fuel before 2001) consumed by the electric power sector,Billion Btu
+,DKEID,Distillate fuel oil (including kerosene-type jet fuel before 2001) average price in the electric power sector,Dollars per million Btu
+,DKEIP,Distillate fuel oil (including kerosene-type jet fuel before 2001) consumed by the electric power sector,Thousand barrels
+,DKEIV,Distillate fuel oil (including kerosene-type jet fuel before 2001) expenditures in the electric power sector,Million dollars
+,ELEXB,Electricity exported from the United States,Billion Btu
+,ELEXD,Electricity exports average price,Dollars per million Btu
+,ELEXP,Electricity exported from the United States,Million kilowatthours
+,ELEXV,Electricity exports expenditures,Million dollars
+,ELGBP,Total (all fuels) electric generating units net summer capacity in all sectors,Thousand kilowatts
+,ELIMB,Electricity imported into the United States,Billion Btu
+,ELIMD,Electricity imports average price,Dollars per million Btu
+,ELIMP,Electricity imported into the United States,Million kilowatthours
+,ELIMV,Electricity imports expenditures,Million dollars
+,ELISB,Net interstate flow of electricity and associated losses (negative indicates flow out of state),Billion Btu
+,ELISP,Net interstate flow of electricity (negative indicates flow out of state),Million kilowatthours
+,ELNIB,Net imports of electricity into the United States,Billion Btu
+,ELNIP,Net imports of electricity into the United States,Million kilowatthours
+,ELVHN,Total electric vehicle (EV) light-duty stocks,Thousands of registered vehicles
+,ELVHS,Electric vehicle (EV) share of total light-duty vehicles,Percent
+,ESACB,Electricity consumed by (sales to ultimate customers in) the transportation sector,Billion Btu
+,ESACD,Electricity price in the transportation sector,Dollars per million Btu
+,ESACP,Electricity consumed by (sales to ultimate customers in) the transportation sector,Million kilowatthours
+,ESACV,Electricity expenditures in the transportation sector,Million dollars
+,ESCCB,Electricity consumed by (sales to ultimate customers in) the commercial sector,Billion Btu
+,ESCCD,Electricity price in the commercial sector,Dollars per million Btu
+,ESCCP,Electricity consumed by (sales to ultimate customers in) the commercial sector,Million kilowatthours
+,ESCCV,Electricity expenditures in the commercial sector,Million dollars
+,ESICB,Electricity consumed by (sales to ultimate customers in) the industrial sector,Billion Btu
+,ESICD,Electricity price in the industrial sector,Dollars per million Btu
+,ESICP,Electricity consumed by (sales to ultimate customers in) the industrial sector,Million kilowatthours
+,ESICV,Electricity expenditures in the industrial sector,Million dollars
+,ESISB,Electricity sales to the industrial sector excluding refinery use,Billion Btu
+,ESRCB,Electricity consumed by (sales to ultimate customers in) the residential sector,Billion Btu
+,ESRCD,Electricity price in the residential sector,Dollars per million Btu
+,ESRCP,Electricity consumed by (sales to ultimate customers in) the residential sector,Million kilowatthours
+,ESRCV,Electricity expenditures in the residential sector,Million dollars
+,ESRFB,Electricity consumed by refineries,Billion Btu
+,ESRPP,Electricity consumed by (sales to ultimate customers in) the residential sector per capita,Kilowatthours
+,ESSCB,Electricity total consumption adjusted for process fuel,Billion Btu
+,ESTCB,Electricity total consumption (electricity sales to ultimate customers),Billion Btu
+,ESTCD,"Electricity average price, all sectors",Dollars per million Btu
+,ESTCK,Electricity conversion factor for the United States,Thousand Btu per kilowatthour
+,ESTCP,Electricity total consumption (electricity sales to ultimate customers),Million kilowatthours
+,ESTCV,Electricity total expenditures,Million dollars
+,ESTPP,Electricity total consumption (electricity sales to ultimate customers) per capita,Kilowatthours
+,ESTXB,Electricity total end-use consumption (electricity sales to ultimate customers),Billion Btu
+,ESTXD,"Electricity average price, all end-use sectors",Dollars per million Btu
+,ESTXP,Electricity total end-use consumption (electricity sales to ultimate customers),Million kilowatthours
+,ESTXV,Electricity total end-use expenditures,Million dollars
+,ESVHP,Electricity consumed for electric vehicle (EV) use,Million kilowatthours
+,EV0CN,Legacy charging ports for electric vehicles,Number
+,EV1CN,Level 1 charging ports for electric vehicles,Number
+,EV2CN,Level 2 charging ports for electric vehicles,Number
+,EVCHN,Total charging ports for electric vehicles,Number
+,EVCHP,Total electric vehicle charging locations,Number
+,EVDCN,DC fast charging ports for electric vehicles,Number
+,EVNNP,Electric vehicle charging locations with both networked and non-networked ports,Number
+,EVNOP,Electric vehicle charging locations with non-networked ports only,Number
+,EVNTP,Electric vehicle charging locations with networked ports only,Number
+,EVPPP,Electric vehicle charging locations with both public and private ports,Number
+,EVPUP,Electric vehicle charging locations with public ports only,Number
+,EVPVP,Electric vehicle charging locations with private ports only,Number
+,FFETK,Fossil-fueled steam-electric power plant conversion factor,Thousand Btu per kilowatthour
+,GEEGB,Geothermal energy consumed for electricity generation by the electric power sector,Billion Btu
+,GEEGP,Geothermal electricity net generation in the electric power sector,Million kilowatthours
+,HPCAS,Hydroelectric pumped storage generating units usage factor,Percent
+,HPGBP,Hydroelectric pumped storage generating units net summer capacity in all sectors,Thousand kilowatts
+,HVCAS,Conventional hydroelectric generating units capacity factor,Percent
+,HVGBP,Conventional hydroelectric power generating units net summer capacity in all sectors,Thousand kilowatts
+,HYCCP,Hydroelectricity net generation in the commercial sector,Million kilowatthours
+,HYEGB,Hydropower consumed for electricity generation by the electric power sector,Billion Btu
+,HYEGP,Hydroelectricity net generation in the electric power sector,Million kilowatthours
+,HYICP,Hydroelectricity net generation in the industrial sector,Million kilowatthours
+,HYTCP,Hydroelectricity total net generation,Million kilowatthours
+,HYTXP,"Hydroelectricity, total end-use net generation",Million kilowatthours
+,LOACB,The transportation sector's share of electrical system energy losses,Billion Btu
+,LOCCB,The commercial sector's share of electrical system energy losses,Billion Btu
+,LOICB,The industrial sector's share of electrical system energy losses,Billion Btu
+,LORCB,The residential sector's share of electrical system energy losses,Billion Btu
+,LOTCB,Total electrical system energy losses,Billion Btu
+,LOTXB,Total electrical system energy losses allocated to the end-use sectors,Billion Btu
+,NGEIB,Natural gas consumed by the electric power sector (including supplemental gaseous fuels),Billion Btu
+,NGEID,Natural gas price in the electric power sector (including supplemental gaseous fuels),Dollars per million Btu
+,NGEIK,Factor for converting natural gas consumed by the electric power sector from physical units to Btu,Thousand Btu per cubic foot
+,NGEIP,Natural gas consumed by the electric power sector (including supplemental gaseous fuels),Million cubic feet
+,NGEIV,Natural gas expenditures in the electric power sector (including supplemental gaseous fuels),Million dollars
+,NUCAS,Nuclear generating units capacity factor,Percent
+,NUEGB,Nuclear energy consumed for electricity generation by the electric power sector,Billion Btu
+,NUEGD,Nuclear fuel price in the electric power sector,Dollars per million Btu
+,NUEGP,Nuclear electricity net generation in the electric power sector,Million kilowatthours
+,NUEGV,Nuclear fuel expenditures in the electric power sector,Million dollars
+,NUETB,"Nuclear energy consumed for electricity generation, total",Billion Btu
+,NUETD,"Nuclear fuel average price, all sectors",Dollars per million Btu
+,NUETK,Factor for converting electricity generated from nuclear power from physical units to Btu,Thousand Btu per kilowatthour
+,NUETP,Nuclear electricity total net generation,Million kilowatthours
+,NUETV,Nuclear fuel total expenditures,Million dollars
+,NUGBP,Nuclear generating units net summer capacity in all sectors,Thousand kilowatts
+,PAEIB,All petroleum products consumed by the electric power sector,Billion Btu
+,PAEID,All petroleum products average price in the electric power sector,Dollars per million Btu
+,PAEIK,Factor for converting all petroleum products consumed by the electric power sector from physical units to Btu for the United States,Million Btu per barrel
+,PAEIP,All petroleum products consumed by the electric power sector,Thousand barrels
+,PAEIV,All petroleum products total expenditures in the electric power sector,Million dollars
+,PCEIB,Petroleum coke consumed by the electric power sector,Billion Btu
+,PCEID,Petroleum coke price in the electric power sector,Dollars per million Btu
+,PCEIP,Petroleum coke consumed by the electric power sector,Thousand barrels
+,PCEIV,Petroleum coke expenditures in the electric power sector,Million dollars
+,PEEID,Primary energy average price in the electric power sector,Dollars per million Btu
+,PEEIV,Primary energy total expenditures in the electric power sector,Million dollars
+,PHVHN,Plug-in hybrid electric vehicle (PHEV) light-duty stocks,Thousands of registered vehicles
+,PHVHP,Electricity consumed for plug-in hybrid electric vehicle (PHEV) use,Million kilowatthours
+,REEIB,Renewable energy sources consumed by the electric power sector,Billion Btu
+,RFEIB,Residual fuel oil consumed by the electric power sector,Billion Btu
+,RFEID,Residual fuel oil price in the electric power sector,Dollars per million Btu
+,RFEIP,Residual fuel oil consumed by the electric power sector,Thousand barrels
+,RFEIV,Residual fuel oil expenditures in the electric power sector,Million dollars
+,SFEIB,Supplemental gaseous fuels consumed by the electric power sector,Billion Btu
+,SOCCP,Solar thermal and photovoltaic electricity net generation in the commercial sector,Million kilowatthours
+,SOEGB,Solar energy consumed for electricity generation by the electric power sector,Billion Btu
+,SOEGP,Solar thermal and photovoltaic electricity net generation in the electric power sector,Million kilowatthours
+,SOICP,Solar thermal and photovoltaic electricity net generation in the industrial sector,Million kilowatthours
+,SOR7P,Solar photovoltaic electricity generation by small-scale applications in the residential sector,Million kilowatthours
+,SOTGP,Solar thermal and photovoltaic electricity total net generation,Million kilowatthours
+,TEEIB,Total energy consumption in the electric power sector plus net imports of electricity into the United States,Billion Btu
+,WDEIB,Wood consumed by the electric power sector,Billion Btu
+,WSEIB,Waste consumed by the electric power sector,Billion Btu
+,WWEIB,Wood and waste consumed by the electric power sector,Billion Btu
+,WWEID,Wood and waste price in the electric power sector,Dollars per million Btu
+,WWEIV,Wood and waste expenditures in the electric power sector,Million dollars
+,WYCCP,Wind electricity net generation in the commercial sector,Million kilowatthours
+,WYEGB,Wind energy consumed for electricity generation by the electric power sector,Billion Btu
+,WYEGP,Wind electricity net generation in the electric power sector,Million kilowatthours
+,WYICP,Wind electricity net generation in the industrial sector,Million kilowatthours
+,WYTCP,Wind electricity total net generation,Million kilowatthours
+,WYTXP,Wind energy total end-use net generation,Million kilowatthours
