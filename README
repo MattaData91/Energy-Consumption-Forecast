@@ -3,11 +3,8 @@
  Overview
 This project focuses on forecasting energy demand in the United States using various statistical and machine learning methods. The primary objective is to analyze nuclear energy consumption trends and forecast future demand using Exponential Smoothing, ARIMA, XGBoost, and Random Forest models.
 
----
-
  Project Structure
 
-```
 energy-demand-forecasting/
 ├── data/
 │   ├── raw/
@@ -19,44 +16,38 @@ energy-demand-forecasting/
 ├── notebooks/
 │   └── energy_forecasting.ipynb
 └── README.md
-```
-
----
 
  Data Description
 
  Main Dataset
-- File: `use_all_btu.csv`
+- File: use_all_btu.csv
 - Rows: 14,773
 - Columns: 66
 - Features:
-  - `Data_Status`: Status of the data (e.g., Final, Preliminary).
-  - `State`: U.S. state codes.
-  - `MSN`: Energy type or activity codes.
-  - `1960 - 2022`: Yearly energy consumption in Billion BTU.
+  - Data_Status: Status of the data (e.g., Final, Preliminary).
+  - State: U.S. state codes.
+  - MSN: Energy type or activity codes.
+  - 1960 - 2022: Yearly energy consumption in Billion BTU.
 
  MSN Descriptions
-- File: `msn_codes_and_descriptions.xlsx`
+- File: msn_codes_and_descriptions.xlsx
 - Sheets:
-  - `MSN descriptions`: Provides descriptions and units for MSN codes.
-
----
+  - MSN descriptions: Provides descriptions and units for MSN codes.
 
  Steps and Methodology
 
  1. Data Preprocessing
 - Loaded and explored the raw dataset.
 - Handled missing values, especially in early years (1960–1969).
-- Merged `use_all_btu.csv` with MSN descriptions for better interpretability.
-- Converted data to a long format using `pd.melt` for time-series analysis.
+- Merged use_all_btu.csv with MSN descriptions for better interpretability.
+- Converted data to a long format using pd.melt for time-series analysis.
 
  2. Nuclear Energy Focus
-- Filtered data to focus on nuclear energy (`MSN` code: `NUEGB`).
+- Filtered data to focus on nuclear energy (MSN code: NUEGB).
 - Conducted state-wise and national-level analysis.
 - Plotted trends for top states and the national total.
 
  3. Forecasting Approaches
-
  Exponential Smoothing
 - Applied to national nuclear consumption data.
 - Forecasted the next 5 years.
@@ -79,51 +70,32 @@ energy-demand-forecasting/
   - RMSE
   - MAPE (Mean Absolute Percentage Error)
 
----
-
  Results
 
 | Model                 | MAE                | RMSE               | MAPE (%) |
-|-----------------------|--------------------|--------------------|----------|
+|--|--|--|-|
 | XGBoost               | 24431.3625         | 28839.491318451357 | 4.86%    |
 | Random Forest         | 15493.059999999998 | 18636.512080368473 | 5.42%    |
 
----
-
  Python Libraries
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `xgboost`
-- `scikit-learn`
-- `statsmodels`
-- `pmdarima`
-
----
+- pandas
+- numpy
+- matplotlib
+- xgboost
+- scikit-learn
+- statsmodels
+- pmdarima
 
  Visualizations
 - State-wise Trends: Nuclear energy consumption trends in California, Texas, and other top states.
 - National Trends: Overall U.S. nuclear energy consumption.
 - Forecast Comparisons: Actual vs. predicted consumption using different models.
 
----
-
  Future Work
 - Incorporate additional energy sources for holistic demand forecasting.
 - Integrate seasonal decomposition for enhanced ARIMA modeling.
 - Explore deep learning models (e.g., LSTM, GRU) for improved long-term forecasts.
 
-
----
-
- Contact
-For questions or suggestions, please contact:  
-Matheus Castro Pamato  
-Aspiring Data Scientist in the Nuclear Sector  
-[LinkedIn]() | [Email]()
-
----
-
  Acknowledgements
 - Data sourced from U.S. Energy Information Administration (EIA).
-- Libraries: `pmdarima`, `statsmodels`, `xgboost`, `scikit-learn`.
+- Libraries: pmdarima, statsmodels, xgboost, scikit-learn.
