@@ -5,6 +5,7 @@ This project focuses on forecasting energy demand in the United States using var
 
  Project Structure
 
+```text
 energy-demand-forecasting/
 ├── data/
 │   ├── raw/
@@ -26,6 +27,7 @@ energy-demand-forecasting/
 │   └── nuegb_xgboost_forecast.png
 ├── scripts/
 └── README.md
+```
 
 
  Data Description
@@ -44,6 +46,24 @@ energy-demand-forecasting/
 - File: msn_codes_and_descriptions.xlsx
 - Sheets:
   - MSN descriptions: Provides descriptions and units for MSN codes.
+ 
+
+Key Questions Answered
+
+Which states consume the most nuclear energy?
+→ Illinois, Pennsylvania, South Carolina, New York, Texas.
+
+How has California’s nuclear consumption changed?
+→ Stable until 2010, then sharp decline.
+
+What is the national trend?
+→ Growth from 1970s → peak early 2000s → recent decline.
+
+Which models forecast nuclear energy most accurately?
+→ Random Forest lowest MAE/RMSE, XGBoost lowest MAPE.
+
+What are the short-term (5-year) forecasts?
+→ Slight decline or stagnation nationally; state-level depends on region.
 
  Steps and Methodology
 
