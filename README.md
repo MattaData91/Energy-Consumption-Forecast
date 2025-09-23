@@ -5,6 +5,7 @@ This project focuses on forecasting energy demand in the United States using var
 
  Project Structure
 
+```text
 energy-demand-forecasting/
 ├── data/
 │   ├── raw/
@@ -16,6 +17,7 @@ energy-demand-forecasting/
 ├── notebooks/
 │   └── energy_forecasting.ipynb
 └── README.md
+```
 
  Data Description
 
