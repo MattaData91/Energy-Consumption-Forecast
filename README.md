@@ -15,7 +15,18 @@ energy-demand-forecasting/
 │   └── msn_codes_and_descriptions.xlsx
 ├── notebooks/
 │   └── energy_forecasting.ipynb
+├── results/
+│   ├── nuclear_california.png
+│   ├── nuegb_auto_arima_forecast.png
+│   ├── nuegb_forecast_1960.png
+│   ├── nuegb_national.png
+│   ├── nuegb_selected_states.png
+│   ├── nuegb_top5_states.png
+│   ├── nuegb_xgb_vs_rf_forecast.png
+│   └── nuegb_xgboost_forecast.png
+├── scripts/
 └── README.md
+
 
  Data Description
 
