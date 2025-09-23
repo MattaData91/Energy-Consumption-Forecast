@@ -89,15 +89,14 @@ energy-demand-forecasting/
  Visualizations
 - State-wise Trends: Nuclear energy consumption trends in California, Texas, and other top states.
 ![Nuclear Energy Consumption in California](results/nuclear_california.png)  
-![Nuclear Energy Consumption in Texas](results/nuclear_texas.png) 
 
 - National Trends: Overall U.S. nuclear energy consumption.
-![National Nuclear Energy Consumption Trends](results/nuegb_national.png) 
+![National Nuclear Energy Consumption Trends](results/nuegb_national.png)  
 
 - Forecast Comparisons: Actual vs. predicted consumption using different models.
 ![Forecast vs Actual – Exponential Smoothing](results/nuegb_forecast_1960.png)  
 ![Forecast vs Actual – ARIMA](results/nuegb_auto_arima_forecast.png)  
-![Forecast vs Actual – XGBoost vs Random Forest](results/nuegb_xgb_vs_rf_forecast.png)  
+![Forecast vs Actual – XGBoost vs Random Forest](results/nuegb_xgb_vs_rf_forecast.png) 
 
  Future Work
 - Incorporate additional energy sources for holistic demand forecasting.
